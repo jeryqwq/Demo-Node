@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script>
+        var str = 'sdashell{name}odhell{name}oahellosdasfgafasd';
+        var re = /{name}/g;
+        window.onload = function () {
+         /*   if (re.test(str)) {
+                alert("Yes/True");
+            }
+            else {
+                alert("No");
+            }*/
+            newstr = str.replace(re, '张三!');
+            alert(newstr);
+        }
+
+    </script>
+</body>
+</html>
